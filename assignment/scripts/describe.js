@@ -78,8 +78,9 @@ console.log(secret)
 // variable 'zip' is created and assigned to the number 55407.
 // a compound condtion is created to check if "isStudent" equal to true and if 'zip' is greater than 80000.
 // although the first condition is met, 'zip' is less than 80000, therefore we look to the following else if condition.
-// the second compound condition requires 'isStudent' to be false, therefore we look to the following else if condition.
-// the third condition requires 'isStudent' to be true! therefore console will log 'Welcome to Prime!'.
+// the second condition requires 'isStudent' to be false OR 'age' to be under 30.
+// neither is met, therefore we look to the following else if condition.
+// the third condition is met, therefore console will log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -138,8 +139,8 @@ if (number >= 2) {
 /*
 
 // FIX - colorOne and colorTwo should be swapped
-// Should be let colorOne = 'blue'
-let colorTwo = 'red'
+// Should be let colorOne = 'blue';
+// let colorTwo = 'red';
 
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -147,8 +148,9 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-  // Fix- colorTwo wasn't changed to purple
-  //Should add colorTwo = 'purple'
+
+// Fix- colorTwo wasn't changed to purple
+// Should add colorTwo = 'purple';
 
 }
 */
@@ -160,6 +162,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+// Fix- this is represented as an OR condition, the instructions ask for both conditions to be met
+// Should be if (temp > 39 && time >= 4){
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -175,6 +180,10 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+
+// Fix- the condition met is set to log 'no entry', but the instructions ask for 'enter'
+// console.log('enter')
+
   console.log('no entry');
 } else {
   console.log('enter');
