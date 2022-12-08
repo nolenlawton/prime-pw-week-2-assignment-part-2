@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// a variable is created called 'name' and is assigned to the script "Dane".
+// a condition is made to check if 'name' is equal to 'Mary' or not.
+// we see that 'Dane' is NOT equal to 'Mary', so 
+// the condition else will be used to log 'How do you do?' to the console.
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// a variable is created called 'secret'.
+// a second variable is created called 'code' is assigned to the number 123.
+// a condition is made to check if 'code' is equal to 123.
+// the condition is met, therefore 'secret' is assigned to 'super' and the 'code' multiplied by 2.
+// another condition is made to check if 'code' is greater than 250.
+// because this condition NOT met, the inside will be ignored.
+// the console will finally log 'super' due to the condition previously met.
 
 //CODE
 /*
@@ -70,10 +73,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable 'isStudent' is created and is assigned to the value true.
+// variable 'age' is created and assigned to the number 34.
+// variable 'zip' is created and assigned to the number 55407.
+// a compound condtion is created to check if "isStudent" equal to true and if 'zip' is greater than 80000.
+// although the first condition is met, 'zip' is less than 80000, therefore we look to the following else if condition.
+// the second compound condition requires 'isStudent' to be false, therefore we look to the following else if condition.
+// the third condition requires 'isStudent' to be true! therefore console will log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -130,12 +136,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - colorOne and colorTwo should be swapped
+// Should be let colorOne = 'blue'
+let colorTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // Fix- colorTwo wasn't changed to purple
+  //Should add colorTwo = 'purple'
+
 }
 */
 
