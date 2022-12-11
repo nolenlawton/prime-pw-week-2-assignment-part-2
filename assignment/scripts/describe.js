@@ -29,7 +29,7 @@ if (number >= 2) {
 // a variable is created called 'name' and is assigned to the script "Dane".
 // a condition is made to check if 'name' is equal to 'Mary' or not.
 // we see that 'Dane' is NOT equal to 'Mary', so 
-// the condition else will be used to log 'How do you do?' to the console.
+// the condition 'else' will be used to log 'How do you do?' to the console.
 
 //CODE
 /*
@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // a variable is created called 'secret'.
 // a second variable is created called 'code' is assigned to the number 123.
 // a condition is made to check if 'code' is equal to 123.
-// the condition is met, therefore 'secret' is assigned to 'super' and the 'code' multiplied by 2.
+// the condition is met, therefore 'secret' is assigned to 'super' and the 'code' multiplied by 2 (246).
 // another condition is made to check if 'code' is greater than 250.
 // because this condition NOT met, the inside will be ignored.
 // the console will finally log 'super' due to the condition previously met.
@@ -73,7 +73,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// variable 'isStudent' is created and is assigned to the value true.
+// variable 'isStudent' is created and is assigned to the boolean value true.
 // variable 'age' is created and assigned to the number 34.
 // variable 'zip' is created and assigned to the number 55407.
 // a compound condtion is created to check if "isStudent" equal to true and if 'zip' is greater than 80000.
@@ -81,6 +81,7 @@ console.log(secret)
 // the second condition requires 'isStudent' to be false OR 'age' to be under 30.
 // neither is met, therefore we look to the following else if condition.
 // the third condition is met, therefore console will log 'Welcome to Prime!'.
+// the last else condition is ignored because a previous condition was met
 
 //CODE
 /*
@@ -183,6 +184,7 @@ if(minAge <= age) {
 
 // Fix- the condition met is set to log 'no entry', but the instructions ask for 'enter'
 // console.log('enter')
+// }
 
   console.log('no entry');
 } else {
